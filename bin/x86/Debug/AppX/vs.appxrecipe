@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>7FE254A9CC123D768E5F6CC5B796BBCD64341B97D342254F32791D4726737871</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>96CAC0CB416352FA5389F14713BB6C93AEB6432B17B0D8E186B58B5F51EE4F49</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>744794f4-ec6b-43e4-a052-778521b1aa8d_1.0.0.0_x86__sjc11xf33rrx4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>744794f4-ec6b-43e4-a052-778521b1aa8d_sjc11xf33rrx4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>744794f4-ec6b-43e4-a052-778521b1aa8d</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-12T19:01:31.850</Modified>
+      <Modified>2016-12-12T20:11:19.585</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.exe">
       <PackagePath>entrypoint\Meetup.exe</PackagePath>
-      <Modified>2016-12-12T19:01:31.218</Modified>
+      <Modified>2016-12-12T20:11:19.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,7 +492,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.xr.xml">
       <PackagePath>Meetup.xr.xml</PackagePath>
-      <Modified>2016-12-12T18:40:26.235</Modified>
+      <Modified>2016-12-12T20:08:20.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -501,11 +501,11 @@
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-12T19:01:31.679</Modified>
+      <Modified>2016-12-12T20:08:21.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\Meetup.exe">
       <PackagePath>Meetup.exe</PackagePath>
-      <Modified>2016-12-12T19:01:31.837</Modified>
+      <Modified>2016-12-12T20:11:19.573</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

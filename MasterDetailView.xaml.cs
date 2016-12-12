@@ -15,33 +15,40 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Meetup
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    /// 
+    public sealed partial class MasterDetailView : Page
     {
-        public MainPage()
+        public MasterDetailView()
         {
             this.InitializeComponent();
-
         }
 
-        private async void getDataClicked(object sender, RoutedEventArgs e)
+        private async void button_Click(object sender, RoutedEventArgs e)
         {
-            //19:22
+            var APIKey = "";
             var client = new HttpClient();
-            var result = await client.GetAsync("https://api.meetup.com/recommended/events?&signed=true&key=" + APIKey.Text + "&lat=" + LatText.Text + "&lon=" +LonText.Text);              
+            var result = await client.GetAsync("https://api.meetup.com/recommended/events?&signed=true&key=" + APIKey);
             var resultString = await result.Content.ReadAsStringAsync();
             var json = JArray.Parse(resultString);
+            var items = new List<Item>();
             foreach (dynamic item in json)
             {
-                outputLabel.Text += item.name + "\n";
+                
+                items.Add(new Item() { Name = item.name, Id = item.id, json = item });
             }
-            
+            listView.ItemsSource = items;
         }
+    }
+    public class Item {
+        public string Name { get; set; }
+        public string Id { get; set; }
+        public dynamic json;
     }
 }
