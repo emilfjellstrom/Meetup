@@ -31,6 +31,7 @@ namespace Meetup
 
         private async void getDataClicked(object sender, RoutedEventArgs e)
         {
+            //19:22
             var client = new HttpClient();
             var result = await client.GetAsync("https://api.meetup.com/recommended/events?&signed=true&key=6f5a6d541d54b172e77721e2327e5e");
 
