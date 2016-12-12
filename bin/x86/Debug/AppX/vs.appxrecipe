@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>744794f4-ec6b-43e4-a052-778521b1aa8d</PackageIdentityName>
     <PackageIdentityPublisher>CN=rjn</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-12T17:30:31.129</Modified>
+      <Modified>2016-12-12T18:46:46.647</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.exe">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.exe">
       <PackagePath>entrypoint\Meetup.exe</PackagePath>
-      <Modified>2016-12-12T17:30:30.845</Modified>
+      <Modified>2016-12-12T18:46:45.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,60 +448,60 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-12-12T17:03:34.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T16:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.xr.xml">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.xr.xml">
       <PackagePath>Meetup.xr.xml</PackagePath>
-      <Modified>2016-12-12T17:14:56.432</Modified>
+      <Modified>2016-12-12T18:40:26.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-12-12T11:38:03.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-12T17:14:57.306</Modified>
+      <Modified>2016-12-12T18:46:46.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\Meetup.exe">
+    <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\Meetup.exe">
       <PackagePath>Meetup.exe</PackagePath>
-      <Modified>2016-12-12T17:30:31.115</Modified>
+      <Modified>2016-12-12T18:46:46.634</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

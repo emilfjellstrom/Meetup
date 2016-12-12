@@ -1,1 +1,1 @@
-c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\Meetup.csproj;x86
+C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\Meetup.csproj;x86

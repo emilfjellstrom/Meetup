@@ -8,8 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="getDataButton" Content="Button" HorizontalAlignment="Left" Margin="121,80,0,0" VerticalAlignment="Top" Click="getDataClicked"/>
-        <TextBlock x:Name="outputLabel" HorizontalAlignment="Left" Margin="212,92,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.147,0.425"/>
+        <Button x:Name="getDataButton" Content="Button" HorizontalAlignment="Left" Margin="121,299,0,0" VerticalAlignment="Top" Click="getDataClicked"/>
+        <TextBlock x:Name="outputLabel" HorizontalAlignment="Left" Margin="210,305,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.147,0.425"/>
+        <TextBox x:Name="APIKey" HorizontalAlignment="Left" Margin="121,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="247"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="54,25,0,0" TextWrapping="Wrap" Text="API Key" VerticalAlignment="Top"/>
+        <TextBox x:Name="LatText" HorizontalAlignment="Left" Margin="121,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="80,62,0,0" TextWrapping="Wrap" Text="LAT" VerticalAlignment="Top"/>
+        <TextBox x:Name="LonText" HorizontalAlignment="Left" Margin="279,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="233,66,0,0" TextWrapping="Wrap" Text="LON" VerticalAlignment="Top" Width="39"/>
 
     </Grid>
 </Page>

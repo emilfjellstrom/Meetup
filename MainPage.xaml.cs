@@ -33,7 +33,7 @@ namespace Meetup
         {
             //19:22
             var client = new HttpClient();
-            var result = await client.GetAsync("https://api.meetup.com/recommended/events?&signed=true&key=6f5a6d541d54b172e77721e2327e5e");
+            var result = await client.GetAsync("https://api.meetup.com/recommended/events?&signed=true&key=" + APIKey.Text + "&lat=" + LatText.Text + "&lon=" +LonText.Text);              
 
             outputLabel.Text = await result.Content.ReadAsStringAsync();
         }
