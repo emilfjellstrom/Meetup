@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-12T18:46:46.647</Modified>
+      <Modified>2016-12-12T19:01:31.850</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Meetup.exe">
       <PackagePath>entrypoint\Meetup.exe</PackagePath>
-      <Modified>2016-12-12T18:46:45.984</Modified>
+      <Modified>2016-12-12T19:01:31.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -95,6 +95,10 @@
     <AppxPackagedFile Include="C:\Users\rjn\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2015-07-22T21:07:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rjn\.nuget\packages\Newtonsoft.Json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T21:06:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\.nuget\packages\runtime.any.System.Private.DataContractSerialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
@@ -497,11 +501,11 @@
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-12T18:46:46.466</Modified>
+      <Modified>2016-12-12T19:01:31.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Core\Meetup.exe">
       <PackagePath>Meetup.exe</PackagePath>
-      <Modified>2016-12-12T18:46:46.634</Modified>
+      <Modified>2016-12-12T19:01:31.837</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

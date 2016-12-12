@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -34,8 +35,9 @@ namespace Meetup
             //19:22
             var client = new HttpClient();
             var result = await client.GetAsync("https://api.meetup.com/recommended/events?&signed=true&key=" + APIKey.Text + "&lat=" + LatText.Text + "&lon=" +LonText.Text);              
-
-            outputLabel.Text = await result.Content.ReadAsStringAsync();
+            var resultString = await result.Content.ReadAsStringAsync();
+            dynamic json = JArray.Parse(resultString);
+            outputLabel.Text = json[0].name;
         }
     }
 }

@@ -190,3 +190,4 @@ c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\obj\x86\Debug\q
 c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\obj\x86\Debug\qualifiers.txt.intermediate
 c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\rjn\documents\visual studio 2015\Projects\Meetup\Meetup\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\rjn\Documents\Visual Studio 2015\Projects\Meetup\Meetup\bin\x86\Debug\Newtonsoft.Json.dll
